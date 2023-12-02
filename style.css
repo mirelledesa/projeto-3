@@ -1,0 +1,24 @@
+body{
+    margin-top: 100px;
+    max-width: 190mm;
+}
+
+.quadrado{
+width: 300px;
+height: 200px;
+background-color: rgb(244, 224, 240);
+margin-left: 15px;
+}
+.circulo{
+width: 200px;
+height: 200px;
+border-radius: 300px;
+background-color: rgb(244, 194, 202);
+position: absolute;
+display: flex;
+align-items: center;
+justify-content: center;
+top: 100px;
+left: 210px;
+}
+
