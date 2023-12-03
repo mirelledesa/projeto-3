@@ -2,27 +2,23 @@ body{
     margin-top: 100px;
     max-width: 190mm;
     font-family: Prompt;
+    margin-bottom: 10px;
 }
-
+   
 .quadrado{
-width: 300px;
-height: 200px;
+width: 350px;
+height: 300px;
 background-color: rgb(244, 224, 240);
 margin-left: 15px;
 position: absolute;
 display: flex;
-align-items: center;
-justify-content: center;
 top: 100px;
 left: 10px;
 
-
-
-
 }
 .circulo{
-width: 200px;
-height: 200px;
+width: 300px;
+height: 300px;
 border-radius: 300px;
 background-color: rgb(244, 194, 202);
 position: absolute;
@@ -31,20 +27,69 @@ align-items: center;
 justify-content: center;
 top: 100px;
 left: 210px;
-
 }
-h1{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    margin-left: 70px;
-
-}  
 
 #SNM{
   position: relative;
   left: 700px;
-  font-size: 60px;
+  font-size: 70px;
   font-weight: bold;
   display: inline;
+  font-family: monospace;
+  color: rgb(71, 70, 70);
     
 }   
+#CF{
+    position: relative;
+    left: 700px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(248, 174, 205);
+}
+.pp{
+    margin-top: 250px;
+    font-weight: bold;
+    margin-left: 210px;
+    font-size: 25px;  
+    position: absolute; 
+}
+.HDT{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 900px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.CH{
+    margin-top: 550px;
+    font-weight: bold;
+    margin-left: 210px;
+    font-size: 25px;  
+    position: absolute;
+    list-style: none;
+}
+
+.CTT{
+    position: absolute;
+    margin-top: 570px;
+    margin-left: 900px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.MR{
+    margin-top: 900px;
+    font-weight: bold;
+    margin-left: 210px;
+    font-size: 25px;  
+    position: absolute;
+    list-style: none;
+}
+.quadrado2{
+    width: 440mm;
+    height: 60px;
+    background-color: pink;
+    border-radius: 30px;
+    margin-top: 1150px ;
+}
+
