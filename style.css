@@ -1,6 +1,7 @@
 body{
     margin-top: 100px;
     max-width: 190mm;
+    font-family: Prompt;
 }
 
 .quadrado{
@@ -8,6 +9,16 @@ width: 300px;
 height: 200px;
 background-color: rgb(244, 224, 240);
 margin-left: 15px;
+position: absolute;
+display: flex;
+align-items: center;
+justify-content: center;
+top: 100px;
+left: 10px;
+
+
+
+
 }
 .circulo{
 width: 200px;
@@ -20,5 +31,20 @@ align-items: center;
 justify-content: center;
 top: 100px;
 left: 210px;
-}
 
+}
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-left: 70px;
+
+}  
+
+#SNM{
+  position: relative;
+  left: 700px;
+  font-size: 60px;
+  font-weight: bold;
+  display: inline;
+    
+}   
